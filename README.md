@@ -74,40 +74,12 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-### [Medical Vision Intelligence](https://github.com/CodeByAown/eye-cancer-agent)
-Multi-agent medical imaging platform. A vision agent hands off to eye and oncology specialists, an explainability agent justifies each finding, and a report agent produces a clinical PDF. Decision-support research build.
-
-`FastAPI` `Next.js` `PyTorch` `MONAI` `pgvector` `Claude`
-
-</td>
-<td width="50%" valign="top">
-
-### [AI Medical Coding Engine](https://github.com/CodeByAown/AI-Medical-Coding-Agent)
-Clinical notes in, ICD-10-CM, CPT and HCPCS codes out. scispaCy entity extraction, semantic retrieval over the code sets, LLM reasoning with confidence and evidence, and a human review queue for anything below threshold. Runs locally through Ollama.
-
-`FastAPI` `scispaCy` `ChromaDB` `Ollama` `Claude`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Clinical Triage Agent](https://github.com/CodeByAown/AI-Triage-Nurse-Agent)
-Patient triage built as an explicit LangGraph state machine rather than a free-running agent loop, so every path the agent takes is inspectable and replayable.
-
-`LangGraph` `LangChain` `Claude` `FastAPI` `PostgreSQL` `Celery`
-
-</td>
-<td width="50%" valign="top">
-
 ### [AI Lead Generation Platform](https://aownabbas.netlify.app/work/ai-lead-generation-platform/)
 A lead lifecycle engine, not a scraper: 13 states, four-tier deduplication, AI research and drafted outreach, and human approval before anything sends. Idempotency enforced in Postgres, around 25 test suites against a real database. *Private repo, case study linked.*
 
 `Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `Redis` `Claude`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [LLM-first Assistant Rebuild](https://aownabbas.netlify.app/work/ai-chat-lead-platform/)
@@ -116,12 +88,22 @@ Traced why a customer-facing AI assistant misrouted real questions (regex rules 
 `PHP` `WordPress` `WooCommerce` `OpenAI` `Embeddings`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Multi-tenant Workforce Platform](https://aownabbas.netlify.app/work/shift2go-hrm/)
 Rostering, timesheets, leave balances and payroll reporting, with per-company rules and subscription tiers. Live in production. *Client work, case study linked.*
 
 `Laravel` `Vue.js` `MySQL` `Multi-tenant`
+
+</td>
+<td width="50%" valign="top">
+
+### [Learning Management Platform](https://aownabbas.netlify.app/work/destinator-university/)
+Course catalogue, enrolment, progress tracking and an instructor and admin back office, with checkout through four payment gateways. *Client work, case study linked.*
+
+`Laravel` `Vue.js` `MySQL` `Stripe` `PayPal`
 
 </td>
 </tr>
